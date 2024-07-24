@@ -1,0 +1,24 @@
+<!-- reuniones.component.html -->
+<div>
+    <h1>Reuniones</h1>
+  
+    <input type="date" [(ngModel)]="fechaFiltro" (change)="filtrarReuniones()">
+    
+    <ul>
+      <li *ngFor="let reunion of reuniones">
+        {{ reunion.dia }} - {{ reunion.hora }} - {{ reunion.duracion }} - {{ reunion.detalle }}
+        <button (click)="editarReunion(reunion)">Editar</button>
+        <button (click)="eliminarReunion(reunion.id)">Eliminar</button>
+      </li>
+    </ul>
+  
+    <h2>Crear Nueva Reunion</h2>
+    <form (ngSubmit)="crearReunion()">
+      <input type="date" [(ngModel)]="nuevaReunion.dia" name="dia" required>
+      <input type="time" [(ngModel)]="nuevaReunion.hora" name="hora" required>
+      <input type="text" [(ngModel)]="nuevaReunion.duracion" name="duracion" placeholder="Duración" required>
+      <input type="text" [(ngModel)]="nuevaReunion.detalle" name="detalle" placeholder="Detalle" required>
+      <button type="submit">Crear</button>
+    </form>
+  </div>
+  
