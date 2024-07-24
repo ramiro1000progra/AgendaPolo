@@ -1,17 +1,102 @@
 {
-    "users": [
-      {
-        "id": 1,
-        "username": "admin",
-        "password": "admin"
-      }
-    ],
-    "posts": [
-      {
-        "id": 1,
-        "title": "Hello World",
-        "content": "This is a post"
-      }
-    ]
-  }
-  
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Hello World",
+      "content": "This is a post"
+    }
+  ],
+  "reuniones": [
+    {
+      "id": 1,
+      "dia": "2024-07-23",
+      "hora": "10:00",
+      "duracion": "1h",
+      "detalle": "Reunión de planificación del sprint"
+    },
+    {
+      "id": 2,
+      "dia": "2024-07-23",
+      "hora": "14:00",
+      "duracion": "2h",
+      "detalle": "Reunión con el cliente"
+    },
+    {
+      "id": 3,
+      "dia": "2024-07-24",
+      "hora": "09:00",
+      "duracion": "30m",
+      "detalle": "Daily stand-up"
+    },
+    {
+      "id": 4,
+      "dia": "2024-07-24",
+      "hora": "11:00",
+      "duracion": "1h",
+      "detalle": "Revisión de código"
+    },
+    {
+      "id": 5,
+      "dia": "2024-07-25",
+      "hora": "13:00",
+      "duracion": "1.5h",
+      "detalle": "Reunión de retrospectiva"
+    },
+    {
+      "id": 6,
+      "dia": "2024-07-25",
+      "hora": "15:00",
+      "duracion": "2h",
+      "detalle": "Reunión de arquitectura"
+    },
+    {
+      "id": 7,
+      "dia": "2024-07-26",
+      "hora": "08:00",
+      "duracion": "1h",
+      "detalle": "Reunión de equipo"
+    },
+    {
+      "id": 8,
+      "dia": "2024-07-26",
+      "hora": "10:30",
+      "duracion": "1h",
+      "detalle": "Reunión de seguimiento"
+    },
+    {
+      "id": 9,
+      "dia": "2024-07-27",
+      "hora": "12:00",
+      "duracion": "1h",
+      "detalle": "Reunión de presentación"
+    },
+    {
+      "id": 10,
+      "dia": "2024-07-27",
+      "hora": "16:00",
+      "duracion": "1h",
+      "detalle": "Reunión de cierre de proyecto"
+    },
+    {
+      "id": 11,
+      "dia": "2024-07-23",
+      "hora": "22:13",
+      "duracion": "1",
+      "detalle": "reunion nueva"
+    },
+    {
+      "id": 13,
+      "dia": "2024-07-27",
+      "hora": "02:13",
+      "duracion": "1",
+      "detalle": "reunion nueva 2"
+    }
+  ]
+}
