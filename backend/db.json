@@ -97,6 +97,412 @@
       "hora": "02:13",
       "duracion": "1",
       "detalle": "reunion nueva 2"
+    },
+    {
+      "id": 15,
+      "dia": "2024-07-27",
+      "hora": "11:00",
+      "duracion": "1",
+      "detalle": "reunion nueva 27-07"
+    },
+    {
+      "id": 16,
+      "dia": "",
+      "hora": "",
+      "duracion": "",
+      "detalle": ""
+    },
+    {
+      "id": 17,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 18,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 19,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 20,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 21,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 22,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 23,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 24,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 25,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 26,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "2",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 27,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "2",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 28,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "2",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 29,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "2",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 30,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "2",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 31,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "2",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 32,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "2",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 33,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "2",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 34,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "2",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 35,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "2",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 36,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "2",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 37,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "2",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 38,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "2",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 39,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "2",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 40,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "2",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 41,
+      "dia": "2024-07-25",
+      "hora": "17:00",
+      "duracion": "2",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 42,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 43,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 44,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 45,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 46,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 47,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 48,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 49,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 50,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 51,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 52,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 53,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 54,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 55,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 56,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 57,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 58,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 59,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 60,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 61,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 62,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 63,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 64,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 65,
+      "dia": "2024-07-25",
+      "hora": "",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 66,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 67,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 68,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 69,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 70,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 71,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
+    },
+    {
+      "id": 72,
+      "dia": "2024-07-25",
+      "hora": "19:00",
+      "duracion": "1",
+      "detalle": "reunion de jueves "
     }
   ]
 }
