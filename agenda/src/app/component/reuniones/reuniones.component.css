@@ -1,2 +1,81 @@
 
+.meeting-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #b3cde0;
+    border-radius: 10px;
+    background-color: #e6f0fa;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1,
+  h2 {
+    text-align: center;
+    color: #1c4e80;
+  }
+  
+  .date-input,
+  .number-input,
+  .text-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #b3cde0;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .date-input:focus,
+  .number-input:focus,
+  .text-input:focus {
+    border-color: #1c4e80;
+    outline: none;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .no-meetings {
+    color: #1c4e80;
+    text-align: center;
+    margin: 15px 0;
+  }
+  
+  .meeting-item {
+    background-color: #ffffff;
+    border: 1px solid #b3cde0;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .meeting-button,
+  .logout-button {
+    padding: 10px;
+    background-color: #1c4e80;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 5px;
+  }
+  
+  .meeting-button:hover,
+  .logout-button:hover {
+    background-color: #163d6a;
+  }
+  
+  .error-message {
+    color: #e74c3c;
+    text-align: center;
+    margin-top: 10px;
+  }
   

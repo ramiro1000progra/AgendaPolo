@@ -1,37 +1,34 @@
-<!-- reuniones.component.html -->
-<div>
-    <h1>Reuniones</h1>
-  
-    <input type="date" [(ngModel)]="fechaFiltro" (change)="filtrarReuniones()">
-  
-    
-    <ul>
-      <div *ngIf="reuniones.length === 0">
-        No hay reuniones en la fecha seleccionada.
-      </div>
-      <li *ngFor="let reunion of reuniones">
-        {{ reunion.dia }} - {{ reunion.hora }} - {{ reunion.duracion }} - {{ reunion.detalle }}
-        <button (click)="editarReunion(reunion)">Editar</button>
-        <button (click)="eliminarReunion(reunion.id)">Eliminar</button>
-      </li>
-    </ul>
-  
-    <h2>Crear Nueva Reunion</h2>
-    <form (ngSubmit)="crearReunion()">
-      <input type="date" [(ngModel)]="nuevaReunion.dia" name="dia" required (change)="validateDate($event)">
-      <div *ngIf="invalidDate" >
-        No se permiten sábados y domingos.
-      </div>
-<!-- tu-componente.component.html -->
-<input type="time" [(ngModel)]="nuevaReunion.hora" name="hora" required min="08:00" max="22:00" step="3600" (change)="validateTime($event)">
-<div *ngIf="invalidTime" class="error-message">
-  La hora debe estar entre las 08:00 y las 22:00.
-</div>
+<div class="meeting-container">
+  <h1>Reuniones</h1>
 
-      <input type="text" [(ngModel)]="nuevaReunion.duracion" name="duracion" placeholder="Duración" required>
-      <input type="text" [(ngModel)]="nuevaReunion.detalle" name="detalle" placeholder="Detalle" required>
-      <button type="submit">Crear</button>
-    </form>
-    <button (click)="logout()">Salir</button>
-  </div>
-  
+  <input type="date" [(ngModel)]="fechaFiltro" (change)="filtrarReuniones()" class="date-input"/>
+
+  <ul>
+    <div *ngIf="reuniones.length === 0" class="no-meetings">
+      No hay reuniones en la fecha seleccionada.
+    </div>
+    <li *ngFor="let reunion of reuniones" class="meeting-item">
+      {{ reunion.dia }} - {{ reunion.hora }} - {{ reunion.duracion }} - {{ reunion.detalle }}
+      <button (click)="editarReunion(reunion)" class="meeting-button">Editar</button>
+      <button (click)="eliminarReunion(reunion.id)" class="meeting-button">Eliminar</button>
+    </li>
+  </ul>
+
+  <h2>Crear Nueva Reunión</h2>
+  <form (ngSubmit)="crearReunion()" class="meeting-form">
+    <input type="date" [(ngModel)]="nuevaReunion.dia" name="dia" required (change)="validateDate($event)" class="date-input"/>
+    <div *ngIf="invalidDate" class="error-message">
+      No se permiten sábados y domingos.
+    </div>
+
+    <input type="number" [(ngModel)]="nuevaReunion.hora" name="hora" required min="8" max="22" (change)="validateHour($event)" class="number-input"/>
+    <div *ngIf="invalidHour" class="error-message">
+      La hora debe estar entre 8 y 22.
+    </div>
+
+    <input type="text" [(ngModel)]="nuevaReunion.duracion" name="duracion" placeholder="Duración" required class="text-input"/>
+    <input type="text" [(ngModel)]="nuevaReunion.detalle" name="detalle" placeholder="Detalle" required class="text-input"/>
+    <button type="submit" class="meeting-button">Crear</button>
+  </form>
+  <button (click)="logout()" class="logout-button">Salir</button>
+</div>

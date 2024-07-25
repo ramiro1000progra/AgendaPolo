@@ -18,13 +18,15 @@ export class ReunionesComponent {
   nuevaReunion: Reunion = {
      id: 0,
     dia: formatDate(new Date(), 'yyyy-MM-dd', 'en'),
-    hora: '',
+    hora: 0,
     duracion: '',
     detalle: ''
   };
   fechaFiltro: string = formatDate(new Date(), 'yyyy-MM-dd', 'en');
+ 
   invalidDate = false;
-  invalidTime = false;
+  invalidHour = false;
+  errorMessage: string = '';
 
   constructor(
     private router: Router,
@@ -35,23 +37,23 @@ export class ReunionesComponent {
 
   }
   //Validar hora 
-  validateTime(event: any) {
-    const time = event.target.value;
-    const [hours, minutes] = time.split(':').map(Number);
-    const isValidHour = hours >= 8 && hours <= 22 && minutes === 0;
+  validateHour(event: any) {
+    const hour = event.target.value;
+    const isValidHour = hour >= 8 && hour <= 22;
 
-    this.invalidTime = !isValidHour;
+    this.invalidHour = !isValidHour;
     if (!isValidHour) {
-      this.nuevaReunion.hora = '';  
+      this.nuevaReunion.hora =8
     }
   }
-  
+
   // Validar que no se seleccione sabado o domingo
   validateDate(event: any) {
     const selectedDate = new Date(event.target.value);
     const day = selectedDate.getUTCDay();
     if (day === 0 || day === 6) {
       this.invalidDate = true;
+    
       this.nuevaReunion.dia = '';  
       this.invalidDate = false;
     }
@@ -65,6 +67,11 @@ export class ReunionesComponent {
   }
 
   crearReunion() {
+    const reunionesEnLaFecha = this.reuniones.filter(reunion => reunion.dia === this.nuevaReunion.dia);
+    if (reunionesEnLaFecha.length >= 10) {
+      this.errorMessage = 'No se pueden crear más de 10 reuniones en la misma fecha.';
+      return;
+    }
     this.reunionesService.createReunion(this.nuevaReunion).subscribe(() => {
       this.cargarReuniones();
     });
